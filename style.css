@@ -31,16 +31,21 @@ body {
     margin-bottom: 4px;
 }
 
+.username {
+    font-size: medium;
+}
+
 .header {
     display: flex;
-    gap: 4px;
+    gap: 6px;
 }
 
 .time-duration-of-comment {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 16px;
+    /* align-content: center; */
+    font-size: small;
     opacity: 60%;
 }
 
@@ -57,4 +62,17 @@ body {
     /* align-items: center; */
     justify-content: center;
     flex-shrink: 0;
+}
+
+button {
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+button.reply {
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 15px;
+    font-style: Roboto;
 }
